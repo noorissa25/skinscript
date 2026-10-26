@@ -1,0 +1,16 @@
+Copyright (c) 2026 Noor Issa. All rights reserved.
+
+This repository is published so the work can be viewed as part of a
+portfolio. No license is granted to use, copy, modify, merge, publish,
+distribute, sublicense or sell this software or its documentation, in
+whole or in part, without prior written permission from the copyright
+holder.
+
+Third-party material keeps its own terms:
+- Product ingredient data from Open Beauty Facts is available under the
+  Open Database License (ODbL); individual contents under the Database
+  Contents License (DbCL).
+- Product and brand names belong to their respective owners and are used
+  only to identify the products.
+- Open-source dependencies listed in package.json are used under their
+  own licenses.

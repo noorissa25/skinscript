@@ -1,0 +1,133 @@
+[
+  {
+    "id": "retinoid-plus-exfoliating-acid",
+    "kind": "combination",
+    "severity": "caution",
+    "title": "Retinoid + exfoliating acid",
+    "groups": [["retinoid"], ["aha", "bha", "pha"]],
+    "explanation": "Retinoids and exfoliating acids (AHAs, BHAs, PHAs) can each cause dryness, peeling and irritation. Using them together can add up, especially when you are new to either one.",
+    "suggestion": "Many people introduce one at a time, or use them on different nights. If you are unsure, ask a dermatologist before combining them.",
+    "sources": ["aad-exfoliate", "dermnet-retinoids", "fda-aha"]
+  },
+  {
+    "id": "retinoid-plus-benzoyl-peroxide",
+    "kind": "combination",
+    "severity": "caution",
+    "title": "Retinoid + benzoyl peroxide",
+    "groups": [["retinoid"], ["benzoyl-peroxide"]],
+    "explanation": "Both retinoids and benzoyl peroxide can make skin more sensitive, dry or peeling, so using both may increase irritation. Some prescription products combine adapalene with benzoyl peroxide on purpose, so this is a reason to go slowly, not a ban.",
+    "suggestion": "Follow the directions on the products or from your prescriber. If you are combining them yourself, start slowly and watch for irritation.",
+    "sources": ["aad-exfoliate", "dermnet-retinoids", "dermnet-bpo"]
+  },
+  {
+    "id": "tretinoin-plus-benzoyl-peroxide",
+    "kind": "combination",
+    "severity": "caution",
+    "title": "Tretinoin + benzoyl peroxide (stability)",
+    "groups": [["light-sensitive-retinoid"], ["benzoyl-peroxide"]],
+    "explanation": "In a lab study, tretinoin mixed with a benzoyl peroxide lotion broke down quickly under light, while adapalene stayed stable. Applying them at the same time may make the tretinoin less effective.",
+    "suggestion": "Ask your prescriber how to time these. A common approach is to use them at different times of day.",
+    "sources": ["martin-1998", "dermnet-bpo"]
+  },
+  {
+    "id": "vitamin-c-plus-benzoyl-peroxide",
+    "kind": "combination",
+    "severity": "info",
+    "title": "Vitamin C (L-ascorbic acid) + benzoyl peroxide",
+    "groups": [["vitamin-c-laa"], ["benzoyl-peroxide"]],
+    "explanation": "Benzoyl peroxide is an oxidizing agent, and pure vitamin C (L-ascorbic acid) is unstable and breaks down when it oxidizes. Applying them at the same time may make the vitamin C less effective. This flag comes from the chemistry of the two ingredients, not from a clinical study of the pair.",
+    "suggestion": "A cautious option is to use them at different times of day, for example vitamin C in the morning.",
+    "sources": ["dermnet-bpo", "alniaimi-2017"]
+  },
+  {
+    "id": "benzoyl-peroxide-plus-exfoliating-acid",
+    "kind": "combination",
+    "severity": "caution",
+    "title": "Benzoyl peroxide + exfoliating acid",
+    "groups": [["benzoyl-peroxide"], ["aha", "bha", "pha"]],
+    "explanation": "Benzoyl peroxide can make skin more sensitive or peel, and exfoliating while using it may make dryness worse.",
+    "suggestion": "Consider using them on different days or at different times, and cut back if your skin gets irritated.",
+    "sources": ["aad-exfoliate", "dermnet-bpo"]
+  },
+  {
+    "id": "multiple-exfoliating-acids",
+    "kind": "count",
+    "severity": "info",
+    "title": "More than one exfoliating acid",
+    "tags": ["aha", "bha", "pha"],
+    "min": 2,
+    "explanation": "Several exfoliating acids together can mean more exfoliation overall. FDA notes that the more serious reactions reported to it happen most often with the most exfoliating products.",
+    "suggestion": "Products are often formulated with several acids on purpose. If you also use other exfoliants in your routine, watch for stinging, redness or peeling.",
+    "sources": ["fda-aha", "aad-exfoliate"]
+  },
+  {
+    "id": "sun-sensitivity",
+    "kind": "presence",
+    "severity": "info",
+    "title": "Can increase sun sensitivity",
+    "tags": ["aha", "retinoid"],
+    "explanation": "AHAs and retinoids can make skin more sensitive to the sun.",
+    "suggestion": "Use sunscreen and other sun protection during the day while you use these. FDA's suggested AHA label says to keep it up for a week after you stop.",
+    "sources": ["fda-aha", "aad-retinoid", "dermnet-retinoids"]
+  },
+  {
+    "id": "retinoid-pregnancy",
+    "kind": "presence",
+    "severity": "info",
+    "title": "Retinoids and pregnancy",
+    "tags": ["pregnancy-caution"],
+    "explanation": "Dermatology sources advise against using retinoids during pregnancy.",
+    "suggestion": "If you are pregnant, trying to conceive or breastfeeding, check with a clinician before using this product.",
+    "sources": ["aad-retinoid", "dermnet-retinoids"]
+  },
+  {
+    "id": "fragrance",
+    "kind": "presence",
+    "severity": "caution",
+    "title": "Fragrance or fragrance allergens",
+    "tags": ["fragrance", "fragrance-allergen", "essential-oil"],
+    "explanation": "Fragrance is one of the most common causes of allergic reactions to cosmetics. The ingredients flagged here are fragrance blends, essential oils or individual fragrance compounds that the EU requires to be labeled as allergens.",
+    "suggestion": "If you have sensitive skin or a known fragrance allergy, you may prefer products without these. Labels like 'fragrance-free' and 'hypoallergenic' have no legal definition in the US, so the ingredient list is the better guide.",
+    "sources": ["fda-allergens", "fda-fragrance", "dermnet-limonene-linalool", "dermnet-essential-oils"]
+  },
+  {
+    "id": "isothiazolinone",
+    "kind": "presence",
+    "severity": "caution",
+    "title": "Isothiazolinone preservative (MI / MCI)",
+    "tags": ["isothiazolinone"],
+    "explanation": "Methylisothiazolinone (MI) and methylchloroisothiazolinone (MCI) are preservatives that are well-known contact allergens. The EU no longer allows MI in leave-on cosmetics.",
+    "suggestion": "If you have had a reaction to MI or MCI, avoid products that contain them. Rinse-off products are generally less of a concern than leave-on ones.",
+    "sources": ["fda-allergens", "dermnet-mi"]
+  },
+  {
+    "id": "formaldehyde-releaser",
+    "kind": "presence",
+    "severity": "caution",
+    "title": "Formaldehyde-releasing preservative",
+    "tags": ["formaldehyde-releaser"],
+    "explanation": "These preservatives slowly release small amounts of formaldehyde to keep the product free of microbes. Formaldehyde is a known contact allergen.",
+    "suggestion": "If you are allergic to formaldehyde, avoid products with these preservatives.",
+    "sources": ["fda-allergens", "dermnet-formaldehyde"]
+  },
+  {
+    "id": "other-contact-allergens",
+    "kind": "presence",
+    "severity": "info",
+    "title": "Other known contact allergens",
+    "tags": ["contact-allergen"],
+    "explanation": "These ingredients are widely used and fine for most people, but they are recognized causes of contact allergy in some.",
+    "suggestion": "Only relevant if you know you react to one of them. Patch testing with a dermatologist can confirm a specific allergy.",
+    "sources": ["dermnet-propylene-glycol", "dermnet-capb", "dermnet-lanolin"]
+  },
+  {
+    "id": "benzoyl-peroxide-bleaching",
+    "kind": "presence",
+    "severity": "info",
+    "title": "Benzoyl peroxide bleaches fabric",
+    "tags": ["benzoyl-peroxide"],
+    "explanation": "Benzoyl peroxide can bleach towels, pillowcases and clothing.",
+    "suggestion": "Let it dry fully before it touches fabric, or use white towels and pillowcases.",
+    "sources": ["dermnet-bpo"]
+  }
+]

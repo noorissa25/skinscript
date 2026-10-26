@@ -1,0 +1,121 @@
+[
+  {
+    "id": "fda-aha",
+    "title": "Alpha Hydroxy Acids",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/alpha-hydroxy-acids",
+    "supports": "AHAs may increase sun sensitivity; FDA's suggested label advises sunscreen during use and for a week after. Lists reported reactions (burning, redness, peeling), most often with heavily exfoliating products."
+  },
+  {
+    "id": "fda-allergens",
+    "title": "Allergens in Cosmetics",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/allergens-cosmetics",
+    "supports": "Names fragrances, the EU list of 26 fragrance allergens, essential oils, methylisothiazolinone / methylchloroisothiazolinone, and formaldehyde-releasing preservatives (DMDM hydantoin, quaternium-15, imidazolidinyl urea, diazolidinyl urea, bronopol, sodium hydroxymethylglycinate) as common cosmetic allergens. Notes 'fragrance-free' and 'hypoallergenic' have no federal definition."
+  },
+  {
+    "id": "fda-fragrance",
+    "title": "Fragrances in Cosmetics",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/cosmetics/cosmetic-ingredients/fragrances-cosmetics",
+    "supports": "Fragrance ingredients can be listed collectively as 'fragrance'; people with fragrance sensitivities are advised to read ingredient lists."
+  },
+  {
+    "id": "aad-exfoliate",
+    "title": "How to safely exfoliate at home",
+    "publisher": "American Academy of Dermatology",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/routine/safely-exfoliate-at-home",
+    "supports": "Prescription retinoids, retinol and benzoyl peroxide can make skin more sensitive or peel; exfoliating while using them may worsen dryness. Chemical exfoliation uses alpha and beta hydroxy acids."
+  },
+  {
+    "id": "aad-retinoid",
+    "title": "Retinoid or retinol?",
+    "publisher": "American Academy of Dermatology",
+    "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/anti-aging/retinoid-retinol",
+    "supports": "Retinol is a retinoid sold over the counter; start slowly; retinoids can increase sun sensitivity, so use at night with daytime sun protection; retinoids should not be used during pregnancy."
+  },
+  {
+    "id": "dermnet-retinoids",
+    "title": "Topical retinoids",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/topical-retinoids",
+    "supports": "Topical retinoids can cause irritation (redness, peeling, dryness) and photosensitivity; adapalene is the least irritating and tretinoin the most; some are contraindicated in pregnancy."
+  },
+  {
+    "id": "dermnet-bpo",
+    "title": "Benzoyl peroxide",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/benzoyl-peroxide",
+    "supports": "Benzoyl peroxide is an oxidising agent; dryness and irritation are common; it bleaches clothing and bedding."
+  },
+  {
+    "id": "martin-1998",
+    "title": "Chemical stability of adapalene and tretinoin when combined with benzoyl peroxide in presence and in absence of visible light and ultraviolet radiation (Martin B. et al., Br J Dermatol 1998;139 Suppl 52:8-11)",
+    "publisher": "British Journal of Dermatology (PubMed 9990414)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9990414/",
+    "supports": "In a lab study, tretinoin mixed with a benzoyl peroxide lotion degraded substantially under light, while adapalene stayed stable."
+  },
+  {
+    "id": "alniaimi-2017",
+    "title": "Topical Vitamin C and the Skin: Mechanisms of Action and Clinical Applications (Al-Niaimi F., Chiang N.Y.Z., J Clin Aesthet Dermatol 2017;10(7):14-17)",
+    "publisher": "PubMed Central (PMC5605218)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5605218/",
+    "supports": "L-ascorbic acid is unstable; formulations use low pH and stabilisers such as ferulic acid; ester derivatives (e.g. magnesium ascorbyl phosphate) are more stable."
+  },
+  {
+    "id": "dermnet-limonene-linalool",
+    "title": "Contact allergy to hydroperoxides of limonene and linalool",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/contact-allergy-to-limonene-and-linalool",
+    "supports": "Limonene and linalool oxidise in air into hydroperoxides that are much stronger sensitisers; both are on the EU list of fragrance allergens that must be labelled."
+  },
+  {
+    "id": "dermnet-essential-oils",
+    "title": "Allergic contact dermatitis to essential oils",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/allergic-contact-dermatitis-to-essential-oils",
+    "supports": "Essential oils are a recognised cause of allergic contact dermatitis."
+  },
+  {
+    "id": "dermnet-mi",
+    "title": "Methylisothiazolinone allergy",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/methylisothiazolinone-allergy",
+    "supports": "MI is a strong contact allergen (ACDS Contact Allergen of the Year 2013); the EU banned it in leave-on cosmetics and restricted it in rinse-off products."
+  },
+  {
+    "id": "dermnet-formaldehyde",
+    "title": "Formaldehyde allergy",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/formaldehyde-allergy",
+    "supports": "Formaldehyde and formaldehyde-releasing preservatives are recognised contact allergens."
+  },
+  {
+    "id": "dermnet-propylene-glycol",
+    "title": "Contact allergy to propylene glycol",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/contact-allergy-to-propylene-glycol",
+    "supports": "Propylene glycol can cause irritant and allergic contact reactions in some people."
+  },
+  {
+    "id": "dermnet-capb",
+    "title": "Contact allergy to cocamidopropyl betaine",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/contact-allergy-to-cocamidopropyl-betaine",
+    "supports": "Cocamidopropyl betaine, a surfactant in cleansers and shampoos, can cause allergic contact dermatitis."
+  },
+  {
+    "id": "dermnet-lanolin",
+    "title": "Contact reactions to lanolin",
+    "publisher": "DermNet",
+    "url": "https://dermnetnz.org/topics/contact-reactions-to-lanolin",
+    "supports": "Lanolin (wool alcohols) can cause allergic contact dermatitis, more often on damaged skin."
+  },
+  {
+    "id": "cosing",
+    "title": "CosIng - Cosmetic Ingredient Database",
+    "publisher": "European Commission",
+    "url": "https://single-market-economy.ec.europa.eu/sectors/cosmetics/cosmetic-ingredient-database_en",
+    "supports": "Official INCI names and listed cosmetic functions (e.g. humectant, emollient, preservative, UV filter). Used for ingredient names and function labels; plain-language descriptions in this repo are the author's summaries."
+  }
+]

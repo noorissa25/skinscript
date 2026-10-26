@@ -1,0 +1,57 @@
+name: publish demo
+
+# Builds a static demo of the site and publishes it to GitHub Pages at
+# https://noorissa25.github.io/skinscript/. The demo has no server: analysis,
+# label scanning and product search run in the browser, accounts and chat run
+# in demo mode (stored in each visitor's browser), and the AI summary is off.
+# No secrets are used. Pages must be set to "GitHub Actions" in the repo's
+# Settings → Pages.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      # Static hosting can't run API routes, and the tests import them; CI
+      # (ci.yml) still builds and tests the full version on every push.
+      - name: Drop server-only code for the static build
+        run: rm -rf src/app/api tests
+      - name: Build the static demo
+        run: npx next build
+        env:
+          STATIC_EXPORT: "1"
+          NEXT_PUBLIC_STATIC_DEMO: "1"
+          NEXT_PUBLIC_SUPABASE_URL: demo
+          NEXT_PUBLIC_BASE_PATH: /skinscript
+      - run: touch out/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

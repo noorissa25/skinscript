@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <rect width="900" height="420" fill="#fbf4ec"/>
+  <text x="40" y="70" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="#222">DAILY CLARIFYING SERUM</text>
+  <text x="40" y="105" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#555">30 mL / 1 fl oz</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#111">
+    <text x="40" y="180">INGREDIENTS: Aqua (Water), Glycerin, Niacinamide,</text>
+    <text x="40" y="220">Salicylic Acid, Retinol, Panthenol, Phenoxyethanol,</text>
+    <text x="40" y="260">Parfum (Fragrance), Limonene.</text>
+  </g>
+  <text x="40" y="360" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="#666">Sample label for testing OCR. Not a real product.</text>
+</svg>
